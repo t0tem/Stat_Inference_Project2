@@ -118,8 +118,9 @@ _Confidence interval doesn't contain 0 and P-value is very low (2.2e-14) so the 
 Above conclusions are based on the below assumptions:
 
 ###Assumptions
+- Data is independent and identically distributed;
 - Observations in dataset are not paired;
-- Their variances are not equal 
+- Variances are not equal
 
 \pagebreak
 

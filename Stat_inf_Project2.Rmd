@@ -1,7 +1,7 @@
 ---
 title: "Analysis of the tooth growth of guinea pigs in response on vitamin C consumption"
 author: "Vadim K."
-date: "2017-01-08"
+date: '2017-01-08'
 output:
   html_document:
     keep_md: yes
@@ -47,7 +47,7 @@ summary(ToothGrowth)
 Now let's plot the data separated by different delivery method and dose levels
 ```{r echo=FALSE}
 #Plot 1
-library(ggplot2)
+suppressMessages(suppressWarnings(library(ggplot2)))
 g1 <- ggplot(ToothGrowth, aes(x=supp, y=len)) + 
       geom_boxplot(aes(fill=supp)) +
       facet_grid(.~dose) + guides(fill=FALSE) +
@@ -59,7 +59,7 @@ g1 <- ggplot(ToothGrowth, aes(x=supp, y=len)) +
             axis.title.y = element_text(size=11))
 ```
 
-```{r fig.width=4, fig.height=3}
+```{r fig.width=4, fig.height=2.5}
 print(g1)
 ```
 
@@ -75,7 +75,7 @@ g2 <- ggplot(ToothGrowth, aes(x=dose, y=len, group=dose)) + geom_boxplot() +
             axis.title.y = element_text(size=11))
 ```
 
-```{r fig.width=4, fig.height=3}
+```{r fig.width=4, fig.height=2.5}
 print(g2)
 ```
 
