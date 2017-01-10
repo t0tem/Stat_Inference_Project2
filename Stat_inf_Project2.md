@@ -1,9 +1,8 @@
 # Analysis of the tooth growth of guinea pigs in response on vitamin C consumption
+Vadim K.  
+2017-01-08  
 
 
-
-###_Vadim K._ 
-####_2017-01-08_
 
 ## Overview
 In this project we investigate the ToothGrowth dataset which contains data of the effect of vitamin C on tooth growth in guinea pigs. Effect is measured on 60 pigs which were receiving one of three dose levels of Vitamin C (0.5, 1, and 2 mg/day) by one of two delivery methods (orange juice or ascorbic acid (a form of vitamin C and coded as VC).

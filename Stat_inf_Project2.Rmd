@@ -1,17 +1,16 @@
 ---
 title: "Analysis of the tooth growth of guinea pigs in response on vitamin C consumption"
+author: "Vadim K."
+date: "2017-01-08"
 output:
-  html_document: 
-    keep_md: true
+  html_document:
+    keep_md: yes
   pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-###_Vadim K._ 
-####_2017-01-08_
 
 ## Overview
 In this project we investigate the ToothGrowth dataset which contains data of the effect of vitamin C on tooth growth in guinea pigs. Effect is measured on 60 pigs which were receiving one of three dose levels of Vitamin C (0.5, 1, and 2 mg/day) by one of two delivery methods (orange juice or ascorbic acid (a form of vitamin C and coded as VC).
@@ -107,8 +106,9 @@ _Confidence interval doesn't contain 0 and P-value is very low (2.2e-14) so the 
 Above conclusions are based on the below assumptions:
 
 ###Assumptions
+- Data is independent and identically distributed;
 - Observations in dataset are not paired;
-- Their variances are not equal 
+- Variances are not equal
 
 \pagebreak
 
